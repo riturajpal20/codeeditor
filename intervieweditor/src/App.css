@@ -1,4 +1,4 @@
-
+/* 
 .homePageWrapper {
     height: 100vh;
     display: flex;
@@ -205,4 +205,226 @@ select {
   }
   
  
-  
+   */
+
+
+   /* Overall Page Style */
+   body {
+       margin: 0;
+       font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto',
+           'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans',
+           'Helvetica Neue', sans-serif;
+       -webkit-font-smoothing: antialiased;
+       -moz-osx-font-smoothing: grayscale;
+       background: linear-gradient(135deg, #2b2d42, #3c4c6b);
+       color: #e0e0e0;
+       min-height: 100vh;
+       transition: background 0.5s ease-in-out;
+   }
+
+   /* Home Page Wrapper */
+   .homePageWrapper {
+       height: 100vh;
+       display: flex;
+       flex-direction: column;
+       justify-content: center;
+       align-items: center;
+       color: #e0e0e0;
+   }
+
+   /* Form Wrapper */
+   .formWrapper {
+       display: flex;
+       flex-direction: column;
+       justify-content: center;
+       align-items: center;
+       background-color: #1f1f1f;
+       border-radius: 10px;
+       padding: 30px;
+       box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.2);
+   }
+
+   /* Home Page Logo */
+   .homePageLogo {
+       width: 120px;
+       margin-bottom: 20px;
+   }
+
+   /* Main Label */
+   .mainLabel {
+       font-size: 26px;
+       font-weight: bold;
+       margin-bottom: 10px;
+       text-align: center;
+       color: #f1f1f1;
+   }
+
+   /* Input Group */
+   .inputGroup {
+       display: flex;
+       flex-direction: column;
+       justify-content: center;
+       align-items: center;
+       margin-bottom: 20px;
+   }
+
+   /* Input Box */
+   .inputBox {
+       width: 100%;
+       border: none;
+       background-color: #2e2e2e;
+       border-radius: 5px;
+       padding: 10px;
+       margin-bottom: 10px;
+       font-size: 16px;
+       color: #e0e0e0;
+       transition: all 0.3s ease;
+   }
+
+   .inputBox:focus {
+       outline: none;
+       background-color: #3e3e3e;
+       box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.3);
+   }
+
+   /* Join Button */
+   .joinBtn {
+       width: 100%;
+       border: none;
+       background-color: #4a90e2;
+       border-radius: 5px;
+       padding: 10px;
+       font-size: 16px;
+       color: #ffffff;
+       cursor: pointer;
+       transition: all 0.3s ease;
+   }
+
+   .joinBtn:hover {
+       background-color: #357abd;
+   }
+
+   /* Create New Button */
+   .createNewBtn {
+       color: #4a90e2;
+       text-decoration: none;
+       border-bottom: 1px solid #4a90e2;
+       transition: all 0.3s ease;
+   }
+
+   .createNewBtn:hover {
+       color: #357abd;
+       border-color: #357abd;
+   }
+
+   /* Create Info */
+   .createInfo {
+       font-size: 14px;
+       color: #b0b0b0;
+       margin-top: 20px;
+       text-align: center;
+   }
+
+   /* Footer */
+   footer {
+       margin-top: 50px;
+       font-size: 14px;
+       color: #b0b0b0;
+       text-align: center;
+   }
+
+   /* Button */
+   .btn {
+       border: none;
+       padding: 10px;
+       border-radius: 5px;
+       font-size: 16px;
+       font-weight: bold;
+       cursor: pointer;
+       transition: all 0.3s ease-in-out;
+   }
+
+   /* Leave Button */
+   .leaveBtn {
+       width: 100%;
+       margin-top: 20px;
+       background: #e94e77;
+   }
+
+   .leaveBtn:hover {
+       background: #d83a60;
+   }
+
+   /* Main Wrap */
+   .mainWrap {
+       display: grid;
+       grid-template-columns: 230px 1fr;
+   }
+
+   /* Aside */
+   .aside {
+       background: #1c1e29;
+       padding: 16px;
+       color: #ffffff;
+       display: flex;
+       flex-direction: column;
+   }
+
+   /* Aside Inner */
+   .asideInner {
+       flex: 1;
+   }
+
+   /* Clients List */
+   .clientsList {
+       display: flex;
+       align-items: center;
+       flex-wrap: wrap;
+       gap: 20px;
+   }
+
+   /* Client */
+   .client {
+       display: flex;
+       align-items: center;
+       flex-direction: column;
+       font-weight: bold;
+   }
+
+   /* User Name */
+   .userName {
+       margin-top: 10px;
+   }
+
+   /* Logo */
+   .logo {
+       border-bottom: 1px solid #424242;
+       padding-bottom: 10px;
+   }
+
+   /* Logo Image */
+   .logoImage {
+       height: 60px;
+       width: 100%;
+   }
+
+   /* CodeMirror */
+   .CodeMirror {
+       min-height: calc(100vh - 20px);
+       font-size: 20px;
+       line-height: 1.6;
+       padding-top: 20px;
+   }
+
+   /* Select Element */
+   select {
+       margin-bottom: 10px;
+       display: block;
+   }
+
+   /* Label */
+   label {
+       display: block;
+       color: #4a90e2;
+       margin-bottom: 5px;
+   }
